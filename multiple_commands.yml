@@ -1,1 +1,12 @@
 ---
+
+
+- hosts: all
+  gather_facts: no
+
+
+
+  tasks:
+  - name: Run Multiple Commands
+    shell: { COMMAND_INPUT1 } 
+    
